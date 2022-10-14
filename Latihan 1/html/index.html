@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title> Kibo Shop</title>
+        <link rel="stylesheet" href="/css/style.css" />
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+            rel="stylesheet"/>
+        
+</head>
+<body>
+<div class="container">
+       <header class="header">
+            <div class="hero">
+            </div>
+            <div class="features feature-1">
+                <h4 class="price">AyamBakar</h4>
+            </div>
+            <div class="features feature-2">
+                <h4 class="=price">IkanBakar</h4>
+            </div>
+         </header>
+
+         <nav class="menu">
+            <div class="menu-toggle">
+                <input type="checkbox"/>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="brand">
+            <h1>Selamat Menikmati</h1>
+            </div>
+            <ul class="menu-List">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="galerry.html">Gallery</a></li>
+             </ul>
+         </nav>
+
+         
+         <section class="services">
+            <div class="services">
+                <ul> <a href="https://gofood.co.id/id/palembang/restaurant/ayam-bakar-soponyono-polda-d5a07de5-71ec-415c-bc9f-111240d055db" target="_blank"><img src="/img/gojek_icon_130926.png" alt="" class="img-logo"></a>
+                    <li><a  href="https://gofood.co.id/id/palembang/restaurant/ayam-bakar-soponyono-polda-d5a07de5-71ec-415c-bc9f-111240d055db" target="_blank">Gojek</a></li>
+                </ul>
+            </div>   
+            <div class="services">
+                <ul>
+                   <a href="https://food.grab.com/id/id/restaurant/ayam-bakar-soponyono-simpang-polda-20-ilir-d-iv-delivery/6-CY2YMBEGT7MAHE" target="_blank"> <img src="/img/grab_logo_icon_169071.png" alt="" class="img-logo"> 
+                    <li><a href="https://food.grab.com/id/id/restaurant/ayam-bakar-soponyono-simpang-polda-20-ilir-d-iv-delivery/6-CY2YMBEGT7MAHE" target="_blank">Grab</a></li>
+                </ul>
+                </div>
+            <div class="services">
+                <ul>
+                    <a href="https://shopee.co.id/universal-link/now-food/shop/1456971?deep_and_deferred=1&shareChannel=copy_link" target="_blank" ><img src="/img/Shopee-Logo-PNG@zeevector.png" alt="" class="img-logo"></a>
+                    <li><a href="https://shopee.co.id/universal-link/now-food/shop/1456971?deep_and_deferred=1&shareChannel=copy_link" target="_blank">
+                        Shopee</a></li>
+                </ul>
+            </div>
+         </div>
+        </section>
+        <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click' , function() {
+            nav.classList.toggle('slide');
+        });
+    </script>
+    </body>
+</html>

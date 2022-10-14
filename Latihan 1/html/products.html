@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css" />
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+            rel="stylesheet"/>
+
+</head>
+<body>
+    <nav class="menu">
+        <div class="menu-toggle">
+            <input type="checkbox"/>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="brand">
+        <h1>Kibo Merch</h1>
+        </div>
+        <ul class="menu-List">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Products</a></li>
+            <li><a href="products.html">About</a></li>
+            <li><a href="galerry.html">Gallery</a></li>
+         </ul>
+     </nav>
+
+     <h1 align="center">MENU MAKANAN</h1>
+        <table border="1" align="center"  width ="500">
+            <tr align="center">
+                    <th>No</th>
+                    <th>Menu</th>
+                    <th>Harga</th>
+            </tr>
+            <tr>
+                    <td align="center">1</td>
+                    <td>AYAM BAKAR</td>
+                    <td>20000</td>
+            </tr>
+            <tr>
+                <td align="center">2 </td>
+                <td>IKAN BAKAR</td>
+                <td>20000</td>
+            </tr> 
+
+            <tr>
+                <td align="center">3</td>
+                <td>AYAM PENYET</td>
+                <td>20000</td>
+            </tr>
+            <tr>
+                <td align="center">4</td>
+                <td>LELE GORENG</td>
+                <td>12000</td>
+            </tr>
+     </table>
+
+     <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click' , function() {
+            nav.classList.toggle('slide');
+        });
+    </script>
+
+
+
+
+</body>
+</html>

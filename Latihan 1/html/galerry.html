@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css" />
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+            rel="stylesheet"/>
+</head>
+<body>
+    <nav class="menu">
+        <div class="menu-toggle">
+            <input type="checkbox"/>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="brand">
+        <h1>Kibo Merch</h1>
+        </div>
+        <ul class="menu-List">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="galerry.html">Gallery</a></li>
+         </ul>
+     </nav>
+    </section>
+
+    <section class="gallery">
+       <h2>Gallery</h2>
+           <img src = "https://cdn-2.tstatic.net/kaltim/foto/bank/images/resep-ayam-bakar-khas-jimbaran.jpg" alt="" />
+           <img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/Gurame_bakar_kecap_1.JPG" alt="" />
+           <img src="https://img.okezone.com/content/2020/08/11/298/2260280/resep-ayam-penyet-sambalnya-maknyuss-enak-buat-makan-siang-2UD1Is9C4W.jpg" alt=""/>
+           <img src="https://selerasa.com/wp-content/uploads/2015/09/images_ikan_ikan-lele-goreng-1200x724.jpg " alt="" />
+        </section>
+    </div>
+
+
+     <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click' , function() {
+            nav.classList.toggle('slide');
+        });
+    </script>
+
+</body>
+</html>
